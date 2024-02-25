@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 100px;
+}
+
+li{
+    display: inline-block;
+    padding: 15px;
+    list-style: none;
+    margin: 2em;
+}
+
+a {
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 20px;
+    text-decoration: none;
+}
+
+i {
+    color: rgb(59, 59, 59);
+}
+
+.fa-square-facebook:hover {
+    color: rgb(24, 119, 242);
+}
+
+.fa-twitter:hover {
+    color: rgb(29, 161, 242);
+}
+
+.fa-google-plus-g:hover {
+    color: rgb(219, 68, 55);
+}
+
+.fa-linkedin:hover {
+    color: rgb(0, 119, 181);
+}
+
+.fa-instagram:hover {
+    color: rgb(131, 58, 180);
+}
+
+
+
+

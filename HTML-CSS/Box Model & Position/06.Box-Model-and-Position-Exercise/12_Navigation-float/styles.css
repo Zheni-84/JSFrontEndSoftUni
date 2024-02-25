@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 2em;
+}
+
+.site-header {
+    border-bottom: 2px solid black;
+    position: relative;
+}
+
+header .title,
+header nav {
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0.8em;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.site-header nav {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+main {
+    position: relative;
+    margin-top: 1em;
+}
+
+article {
+    display: inline-block;
+    width: 70%;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 3em;
+}
+
+aside ul {
+    margin-left: 2em;
+}
+
+aside h3 {
+    margin: 0.5em 0 0.5em 0;
+}
+
+article header h1{
+    padding-bottom: 1em;
+}
+
+article p{
+    padding-bottom: 2em;
+    text-align: justify;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 0.5em;
+    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.25);
+}
+
+article section {
+    margin-top: 1em;
+}
+
+article section h1{
+    margin-bottom: 0.5em;
+}
+
+article section p:nth-child(3) {
+    display: inline-block;
+    width: 55%;
+    padding-right: 1em;
+}
+
+blockquote{
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: rgb(182, 171, 172);
+    display: inline-block;
+    border-left: 2px solid rgb(182, 171, 171);
+    padding-left: 2em;
+    width: 30%;
+    position: absolute;
+}
+
+blockquote p:nth-child(2) {
+    text-align: end;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h3 {
+    font-size: 1.2em;
+    font-family: Georgia, serif;
+}
+
+.level1 {
+    float: right;
+    margin: 0 0 0.5em 1em;
+}
+
+.level2 {
+    float: left;
+    margin: 0 1em 0.5em 0;
+}

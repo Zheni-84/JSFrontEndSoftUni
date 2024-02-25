@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    padding: 2em;
+}
+
+.page {
+    max-width: 50em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /*gap: 2em*/
+}
+
+header {
+    display: flex;
+    flex: 0 0 100%;
+    border-bottom: 2px solid black;
+    padding-bottom: 1em;
+    justify-content: space-between;
+}
+
+/*site title*/
+header p a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none outside;
+    padding: 0.5em;
+}
+
+nav a {
+    display: block;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin-top: 2em;
+}
+
+article {
+    padding-right: 1.5em;
+    flex-basis: 75%;
+}
+
+aside {
+    flex: 1 0 auto;
+    padding-left: 1em;
+    border-left: 2px solid green;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+aside h1 {
+    margin-bottom: 1.5em;
+}
+
+ul, p {
+    margin-left: 1.5em;
+}
+
+aside section {
+    margin-bottom: 1em;
+}
+
+.level1 img {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+footer img {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+img {
+    border: 3px solid black;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3em;
+    box-shadow: 0 0 0.5em 0.3em rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, h3 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+
+blockquote,
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+.level1, .level2, footer {
+    margin-bottom: 3em;
+    text-align: justify;
+}
+
+main p {
+    margin: 1em 0 2em 0;
+}
+
+blockquote {
+    float: right;
+    opacity: 0.7;
+    max-width: 60%;
+    margin: 0 0 0 2em;
+    font-style: italic;
+    padding: 1em;
+    border-left: 1px solid #ccc;
+}
+
+blockquote .author {
+    text-align: end;
+    margin: 2em 0 0 0;
+}
+
+footer h1 {
+    margin-bottom: 0.5em;
+}

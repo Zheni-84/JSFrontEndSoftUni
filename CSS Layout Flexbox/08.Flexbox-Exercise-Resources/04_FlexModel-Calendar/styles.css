@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+}
+
+.container {
+    display: flex;
+    max-width: 95vw;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span {
+    border: 1px solid black;
+    flex-grow: 1;
+    padding: 0.5em;
+    text-align: center;
+}
+
+section span:nth-child(1),
+section span:nth-child(7) {
+    flex: 1 0 100%;
+}
+
+section.week span:nth-child(1),
+section.week span:nth-child(1) ~ span {
+    background-color: rgb(33, 166, 157);
+}
+
+section.week span:nth-child(7),
+section.week span:nth-child(7) ~ span {
+    background-color: rgb(18, 207, 18);
+}
+
+
+
+

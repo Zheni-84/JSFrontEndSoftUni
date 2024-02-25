@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    padding: 2em;
+    background-color: rgb(9, 85, 85);
+}
+
+section {
+    display: flex;
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: 2em auto;
+    gap: 2em;
+    padding: 1em;
+}
+
+article {
+    flex: 0 0 200px;
+    padding: 1em;
+    border: 1px solid black;
+    background-color: rgb(15, 207, 181);
+    box-shadow: 0 0 1em 1em rgb(0, 0, 0, 0.2) inset;
+    border-radius: 0.5em;
+    opacity: 1;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    word-spacing: 0.5em;
+}
+
+p {
+    font-style: italic;
+    text-indent: 0.5em;
+    text-align: justify;
+}

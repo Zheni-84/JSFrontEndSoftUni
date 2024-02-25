@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* img {
+    width: 100%;
+    display: block;
+    margin: auto;
+} */
+
+h1 {
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    color: antiquewhite;
+    text-shadow: 5px 5px 20px black;
+}

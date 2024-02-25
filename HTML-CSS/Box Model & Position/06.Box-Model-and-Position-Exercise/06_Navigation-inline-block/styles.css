@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    padding: 4em;
+}
+
+header {
+    border-bottom: 2px solid #ccc;
+}
+
+header .site-title a {
+    color: #000;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header .site-title,
+header nav {
+    display: inline-block;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    /*margin: 0.5em;*/
+    padding: 0 0.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #090;
+    padding: 0.5em 1em;
+}
+
+nav a:hover{
+    background-color: #060;
+    color: white;
+
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+main p {
+    text-align: justify;
+}
+
+
