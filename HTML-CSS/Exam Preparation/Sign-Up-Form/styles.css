@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, input, select, option {
+    font: 16px/1.5 "Kode Mono", sans-serif;
+}
+
+body {
+    padding: 3em;
+    background: rgb(193, 189, 186);
+}
+
+.flex {
+    display: flex;
+    gap: 1.5em;
+}
+
+.flex > * {
+    flex-grow: 1;
+}
+
+form {
+    max-width: 35em;
+    margin: 0 auto;
+    background: rgb(36, 51, 60);
+    color: #fff;
+    padding: 2em;
+}
+
+form nav {
+    padding-bottom: 2em;
+}
+
+form nav ul {
+    display: flex;
+}
+
+form nav li {
+    display: block;
+    flex: 1 1 auto;
+}
+
+form nav a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    background: rgb(67, 83, 89);
+    padding: 0.6em 0.2em;
+    text-decoration: none;
+    outline: none;
+}
+
+form nav li.current a {
+    background: rgb(26, 177, 135);
+}
+
+
+form h3 {
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: normal;
+    padding: 0 0 1.8em 0;
+}
+
+.field {
+    position: relative;
+    padding-bottom: 1.5em;
+}
+
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"] {
+    display: block;
+    width: 100%;
+    border: 2px solid rgb(255,255,255,0.1);
+    background: transparent;
+    padding: 0.4em 0.6em;
+    line-height: 1;
+    outline: none;
+    color: #fff;
+}
+
+.field input + label {
+    display: block;
+    opacity: 0.5;
+    padding: 0.4em 0.8em;
+    position: absolute;
+    top: 0.3em;
+    left: 0;
+    line-height: 1;
+}
+
+.field input:not(:placeholder-shown) + label,
+.field input:focus + label {
+    display: none;
+}
+
+.field input[required] + label::after {
+    display: inline-block;
+    content: '*';
+    padding-left: 0.3em;
+    color: rgb(26, 177, 136);
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    background: rgb(26, 177, 136);
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1.2em;
+    padding: 0.6em 0.2em;
+    outline: none;
+    cursor: pointer;
+}
